@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.mainContent {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.mainContent__listProduct {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.crossedOut {
+    text-decoration: line-through;
+}
+
+.text {
+    color: #1b1b1b;
+    font-size: 16px;
+}
+
+.text:not(:first-child) {
+    margin-top: 10px;
+}
